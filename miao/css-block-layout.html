@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+
+        .one{
+           width: 600px;
+           color: aliceblue;
+           background-color: black;
+           padding-left: calc(50% - 300px);
+           padding-right: calc(50% - 300px);
+        }
+        .tow{
+            max-width: 600px;
+            width: 600px;
+            margin: auto;
+            padding-top: 15px;
+        }
+        div.ddd{
+        width: 600px;
+        margin: 0 auto;
+        margin-top: 16px;
+        }
+        .ddd div{
+        width: 174px;
+        height: 34px;
+        background-color: pink;
+        border: 3px solid black;
+        margin-top: 15px;
+        line-height: 34px;
+        text-align: center;
+        }
+        .ddd div:hover{
+            background-color: red;
+        }
+        .ddd :nth-child(3n + 2){
+        margin-left: 210px;
+        margin-top: -40px;
+        }
+        .ddd :nth-child(3n + 3){
+            margin-left: 420px;
+            margin-top: -40px;
+        }
+        p{
+            margin: 0 auto;
+            width: 600px;
+            border-bottom: 1px dotted black;
+        }
+        p:nth-child(1){
+            margin-top: 15px;
+        }
+        .see{
+                width: 600px;
+                color: black;
+                background-color: rgb(238, 130,238);
+                padding-left: calc(50% - 300px);
+                padding-right: calc(50% - 300px);
+                height: 42px;
+                text-align: center;
+                margin-top: 15px;
+        }
+        p:nth-child(5){
+           border-bottom: 1px solid transparent;
+        }
+     </style>
+</head>
+<body>
+    <div class="one">
+       hello world 请调整浏览器窗口大小查看效果
+    </div>
+    <div class="tow">
+        页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px
+        页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 
+        页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体  宽度600px
+    </div>
+    <div class="ddd">
+    <div>宽180高40(包含边框)</div>
+    <div>产品</div>
+    <div>产品</div>
+    <div>水平间隙30px</div>
+    <div>产品</div>
+    <div>产品</div>
+    <div>垂直间隙15px</div>
+    <div>产品</div>
+    <div>产品</div>
+    <div>边框宽度3px</div>
+    <div>产品</div>
+    <div>产品</div>
+    </div>
+    <div>
+    <p>link</p>
+    <p>link</p>
+    <p>link</p>
+    <p>link</p>
+    <p>link</p>
+    </div>
+    <div class="see">
+        ©版权所有<br>本页所有布局均使用块元素
+    </div>
+</body>
+</html>
