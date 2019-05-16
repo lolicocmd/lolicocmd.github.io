@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        ul {
+            padding: 0px;
+            list-style: none;
+        }
+        
+        ul li {
+            font-size: 20px;
+            list-style: none;
+            text-decoration: none;
+            background-color: #3C3C3C;
+            color: #FFFFFF;
+            width: 150px;
+            text-align: center;
+            border: 0px solid black;
+            border-radius: 5px;
+            margin-top: 1px;
+            position: relative;
+            cursor: pointer;
+        }
+        
+        li:hover {
+            background-color: plum;
+        }
+        
+        li:hover>ul>li {
+            display: block;
+        }
+        
+        ul ul li {
+            display: none;
+            border: solid 1px white;
+        }
+        
+        ul ul::before {
+            content: '›';
+            position: absolute;
+            right: 1em;
+        }
+        
+        ul ul {
+            position: absolute;
+            top: 0;
+            left: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>查看</li>
+        <li>新建
+            <ul>
+                <li>新建文件夹</li>
+                <li>PPT文稿
+                    <ul>
+                        <li>普通文稿</li>
+                        <li>办公文稿</li>
+                        <li>常用文稿</li>
+                        <li>会议文稿</li>
+                    </ul>
+                </li>
+                <li>文本文档</li>
+                <li>DOC文档</li>
+            </ul>
+        </li>
+        <li>刷新</li>
+        <li>显示</li>
+    </ul>
+</body>
+
+</html>
