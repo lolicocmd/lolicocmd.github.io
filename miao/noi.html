@@ -1,0 +1,197 @@
+<!-- <script id="ch0104/01">
+  var a = Number(prompt())
+  if (a > 0) {
+    console.log('positive')
+  } else if (a < 0) {
+    console.log('negative')
+  } else {
+    console.log('zero')
+  }
+</script>
+
+<script id="ch0104/02">
+  var a = Number(prompt())
+  console.log(Math.abs(a))
+</script> -->
+
+<script id="ch0103/01" type="xx">
+    var a = Number(prompt("喊你输入数字？")) var b = Number(prompt("你在做咩啊？")) console.log(a + b)
+</script>
+
+<script id="ch0103/02" type="xx">
+    var a = Number(prompt("喊你输入数字？")) var b = Number(prompt("你在做咩啊？")) var c = Number(prompt("吃了吗您？")) console.log((a + b) * c)
+</script>
+
+<script id="ch0103/03" type="xx">
+    var a = Number(prompt("喊你输入数字？")) var b = Number(prompt("你在做咩啊？")) var c = Number(prompt("吃了吗您？")) console.log(((a + b) / c) | 0)
+</script> -->
+
+<script id="ch0103/04" type="xx">
+    var a = Number(prompt("喊你输入数字？")) var b = Number(prompt("你在做咩啊？")) console.log((a / b | 0)) console.log(a % b)
+</script>
+
+<script id="ch0103/05" type="xx">
+    var a = Number(prompt("喊你输入数字？")) var b = Number(prompt("你在做咩啊？")) var Yasuo = a / b console.log(Yasuo.toFixed(9))
+</script>
+
+<script id="ch0103/06" type="xx">
+    var a = Number(prompt("喊你输入数字？")) var b = Number(prompt("你在做咩啊？")) var Yasuo = b / a * 100 console.log(Yasuo.toFixed(3) + "%")
+</script>
+
+
+<script id="ch0103/07" type="xx">
+    var x = Number(prompt("喊你输入数字？")) var a = Number(prompt("你在做咩啊？")) var b = Number(prompt("在吗？")) var c = Number(prompt("在干嘛？")) var d = Number(prompt("多喝烫水！")) var Yasuo = a * x * x * x + b * x * x + c * x + d console.log(Yasuo.toFixed(7))
+</script>
+
+<script id="ch0103/08" type="xx">
+    var f = Number(prompt("喊你输入数字？")) var c = 5 * (f - 32) / 9 console.log(c.toFixed(5))
+</script>
+
+<script id="ch0103/09" type="xx">
+    var r = Number(prompt("你在做咩啊？")) var pi = 3.14159 var b = 2 * r var c = 2 * pi * r var a = pi * r * r console.log(b.toFixed(4)) console.log(c.toFixed(4)) console.log(a.toFixed(4))
+</script>
+
+
+<script id="ch0103/10" type="xx">
+    var r1 = Number(prompt("喊你输入数字？")) var r2 = Number(prompt("你在做咩啊？")) var r = 1 / (1 / r1 + 1 / r2) console.log(r.toFixed(2))
+</script>
+
+<script id="ch0103/11" type="xx">
+    var a = Number(prompt("喊你输入数字？")) var b = Number(prompt("你在做咩啊？")) var Yasuo = a % b console.log(Yasuo.toFixed(4))
+</script>
+
+<script id="ch0103/12" type="xx">
+    var r = Number(prompt("喊你输入数字？")) var π = 3.14 var V = 4 / 3 * π * r * r * r console.log(V.toFixed(2))
+</script>
+
+<script id="ch0103/13" type="xx">
+    var s = Number(prompt("喊你输入数字？")) var a = s % 10 //100（s）除以10的余数为0 var b = (s - a) / 10 % 10 //100（s）减去a的0为100再出去10等于10,10和10的余数为0 var c = (s - a - b * 10) / 100 //括号里会先算乘法，b乘10等于0，100（s）减a再减0还是等于100,100除以100等于1 var Yasuo = "" + a + b + c //空符加上0加上0再加上c（1）就等于结果001
+    console.log(Yasuo)
+</script>
+
+<script id="ch0103/14" type="xx">
+    var π = 3.14159 var h = Number(prompt("喊你输入数字？")) var r = Number(prompt("顶盖yasei？")) var z = π * r * r * h console.log(Math.ceil(20000 / z)) //ceil()：将小数部分一律向整数部分进位。
+</script>
+
+<script id="ch0103/15" type="xx">
+    var n = Number(prompt("喊你输入数字？")) var x = Number(prompt("你在做咩啊？")) var y = Number(prompt("扑街啊雷？")) console.log(n - (Math.ceil(y / x))) //ceil()：将小数部分一律向整数部分进位。
+</script>
+
+<script id="ch0103/16" type="xx">
+    var Xa = Number(prompt("喊你输入数字？")) var Ya = Number(prompt("你在做咩啊？")) var Xb = Number(prompt("嘿嘿？")) var Yb = Number(prompt("醒醒？起来敲代码了啊！")) var ab = Math.sqrt((Xa - Xb) * (Xa - Xb) + (Ya - Yb) * (Ya - Yb)) //sqrt() 方法可返回一个数的平方根 console.log(ab.toFixed(3))
+</script>
+
+<script id="ch0103/17" type="xx">
+    var x1 = Number(prompt("喊你输入数字？")) var y1 = Number(prompt("喊你输入数字？")) var x2 = Number(prompt("喊你输入数字？")) var y2 = Number(prompt("喊你输入数字？")) var x3 = Number(prompt("喊你输入数字？")) var y3 = Number(prompt("喊你输入数字？")) var Yasuo = (x1 * y2 + y1 * x3 + x2 * y3
+    + x1 * y3 + y1 * x2 + y2 * x3) / 2 console.log(Yasuo.toFixed(2))
+</script>
+
+<script id="ch0103/18" type="xx">
+    var a1 = Number(prompt("喊你输入数字？")) var a2 = Number(prompt("你在做咩啊？")) var n = Number(prompt("嘿嘿？")) var Yasuo = a1 + (n - 1) * (a2 - a1) // console.log(Yasuo)
+</script>
+
+<script id="ch0103/19" type="xx">
+    var a = Number(prompt("喊你输入数字？")) var b = Number(prompt("你在做咩啊？")) console.log(a * b)
+</script>
+
+<script id="ch0103/20" type="xx">
+    var Yasuo = +prompt("喊你输入数字？") var loli = 2 if (Yasuo == 0) { loli = 1 } while (Yasuo > 1) { loli = 2 * loli Yasuo -= 1 } console.log(loli)
+</script>
+
+<!-- =========================================ch0104===================================  -->
+
+<script id="ch0104/01" type="xx">
+    var n = Number(prompt("喊你输入数字？")); if (n > 0) { console.log("positive") } else if (n
+    < 0) { console.log( "negative") } else { console.log( "zero") } </script>
+
+        <script id="ch0104/02" type="xx">
+            var n = Number(prompt("喊你输入数字？")); if (n >= 0) { console.log(n.toFixed(2)) } else { console.log(-n.toFixed(2)) }
+        </script>
+
+        <script id="ch0104/03" type="xx">
+            var n = Number(prompt("喊你输入数字？")); if (n % 2 == 0) { console.log("even") } else { console.log("odd") }
+        </script>
+
+        <script id="ch0104/04" type="xx">
+            var x = prompt("喊你输入数字？") var a = x.charCodeAt() if (a % 2 == 1) { console.log("YES") } else { console.log("NO") }
+        </script>
+
+        <script id="ch0104/05" type="xx">
+            var x = prompt("喊你输入数字？") var y = prompt("喊你输入数字？") if (x = y) { console.log("=") } else if (x > y) { console.log(">") } else if (x
+            < y) { console.log( "<") } </script>
+
+                <script id="ch0104/06" type="xx">
+                    var x = prompt("喊你输入数字？") if (x
+                    <=9 9) { console.log(1) } else if (x <=9 ) { console.log(0) } </script>
+
+                        <script id="ch0104/07" type="xx">
+                            var x = prompt("喊你输入数字？") var y = prompt("喊你输入数字？") if (x > 10 || y > 20) { console.log(1) } else if (x
+                            < 10 || y < 20) { console.log(0) } </script>
+
+                                <script id="ch0104/08" type="xx">
+                                    var x = prompt("喊你输入数字？") if (x % 3 == 0) { console.log("YES") } else if (x % 5 == 0) { console.log("YES") } else { console.log("NO") }
+                                </script>
+
+                                <script id="ch0104/09" type="xx">
+                                    var n = prompt("喊你输入数字？") if (n % 3 == 0 && n % 5 == 0 && n % 7 == 0) { console.log("3 5 7") } else if (n % 3 == 0 && n % 5 == 0) { console.log("3 5") } else if (n % 3 == 0 && n % 7 == 0) { console.log("3 7") } else if (n % 5 == 0 && n % 7 == 0) { console.log("5
+                                    7") } else if (n % 3 == 0) { console.log("3") } else if (n % 5 == 0) { console.log("5") } else if (n % 7 == 0) { console.log("7") } else { console.log("n") }
+                                </script>
+
+                                <script id="ch0104/10" type="xx">
+                                    var x = prompt("喊你输入数字？") var y = prompt("喊你输入数字？") //(x
+                                    <=5 9 || y>= 60) { if ((x
+                                        < 60 && y>= 60) || (y
+                                            < 60 && x>= 60)) { console.log("1") } else { console.log("0") }
+                                </script>
+
+                                <script id="ch0104/11" type="xx">
+                                    var x = prompt("喊你输入数字？") if (x == 1 || x == 3 || x == 5) { console.log("NO") } else { console.log("YES") }
+                                </script>
+
+                                <script id="ch0104/12" type="xx">
+                                    var x = prompt("喊你输入数字？") var qc = 27 + 23 + x / 3 var zl = x / 1.2 if (qc
+                                    < zl) { console.log( "Bike") } else if (qc> zl) { console.log("Walk") } else { console.log("All") }
+                                </script>
+
+                                <script id="ch0104/13" type="xx">
+                                    var x = prompt("喊你输入数字？") var y if (x > 0 && x
+                                    < 5) { y=- x + 2.5 console.log(y.toFixed(3)) } else if (x> 5 && x
+                                        < 10) { y=2 - 1.5(x - 3)(x - 3) console.log(y.toFixed(3)) } else if (x> 0 && x
+                                            < 20) { y=x / 2 - 1.5 console.log(y.toFixed(3)) } </script>
+
+                                                <script id="ch0104/14" type="xx">
+                                                    var a = prompt("喊你输入数字？") var b = prompt("尼玛你睡着了？") var Yasuo if (a
+                                                    <=1 000 && b=="y" ) { Yasuo=8 + 5 } else if (a <=1 000 && b=="n" ) { Yasuo=8 } else if (a> 1000 && b == "y") { Yasuo = 8 + 4 * Math.ceil((a - 1000) / 500) + 5 } else if (a > 1000 && b == "n") { Yasuo = 8 + 4 * Math.ceil((a - 1000) / 500) } console.log(Yasuo)
+                                                </script>
+
+                                                <script id="ch0104/15" type="xx">
+                                                    var x = prompt("喊你输入数字？") var y = prompt("喊你输入数字？") var z = prompt("喊你输入数字？") console.log(Math.max(x, y, z))
+                                                </script>
+
+                                                <script id="ch0104/16" type="xx">
+                                                    var a = +prompt("喊你输入数字？") var b = +prompt("你这个弟弟？") var c = +prompt("你再干什么啊？") if (a + b > c && a + c > b && b + c > a) { console.log("yes") } else { console.log("no") }
+                                                </script>
+
+                                                <script id="ch0104/17" type="xx">
+                                                    var y = +prompt("请输入一个年份...") if ((y % 4 == 0 && y % 100 != 0) || (y % 400 == 0 && y % 3200 != 0)) { console.log("Y") } else { console.log("N") }
+                                                </script>
+
+                                                <script id="ch0104/18" type="xx">
+                                                    var x = +prompt("输入你的电话号码") var y = +prompt("再输入你的银行卡账号") if ((x >= -1 && x
+                                                    <=1 ) && (y>= -1 && y
+                                                        <=1 )) { console.log( "yes") } else { console.log( "no") } </script>
+
+                                                            <script id="ch0104/19" type="xx">
+                                                                var x = +prompt("输入你的银行卡账号？") var y = +prompt("再输入你的QQ密码") var ope = prompt("输入你的电话号码") var res if (ope == "+") { res = x + y console.log(res) } else if (ope == "-") { res = x - y console.log(res) } else if (ope == "*") { res = x * y console.log(res)
+                                                                } else if (ope == "/") { if (y == 0) { console.log("Divided by zero") } else { res = x / y console.log(res) } } else { console.log("Invalid operator!") }
+                                                            </script>
+
+                                                            <script id="ch0104/20" type="xx">
+                                                                var a = +prompt("你妈喊你回家吃饭了？！") var b = +prompt("你妈喊你回家吃饭了？！") var c = +prompt("你妈喊你回家吃饭了？！") var delta = b * b - 4 * a * c if (delta == 0) { console.log("x1=x2=" + ((-b + Math.sqrt(delta)) / (2 * a)).toFixed(5)) } else if (delta > 0) { console.log("x1="
+                                                                + ((-b + Math.sqrt(delta)) / (2 * a)).toFixed(5) + ";" + "x2=" + ((-b - Math.sqrt(delta)) / (2 * a)).toFixed(5)) } else { console.log("x1=" + (-b / (2 * a)).toFixed(5) + "+" + (Math.sqrt(-delta)
+                                                                / (2 * a)).toFixed(5) + "i;" + "x2=" + (-b / (2 * a)).toFixed(5) + "-" + (Math.sqrt(-delta) / (2 * a)).toFixed(5) + "i") }
+                                                            </script>
+
+                                                            <script id="ch0104/21" type="xx">
+                                                                var n = +prompt("教你输入数字呢？") var x = +prompt("嘿？") var y = +prompt("你在干什么啊！？") res = n - Math.ceil(y / x) console.log(res)
+                                                            </script>
